@@ -13,7 +13,7 @@ A Docker image based on [Astral's UV](https://github.com/astral-sh/uv) Python pa
 - 🚀 **Fast Python package management** with UV
 - 🔄 **Git support** for version control operations
 - 📦 **Git LFS support** for large file handling
-- 🔒 **Security-focused** with non-root user
+<!-- - 🔒 **Security-focused** with non-root user -->
 - 🏗️ **Multi-architecture** support (amd64/arm64)
 - 📋 **Proper OCI labels** for metadata
 

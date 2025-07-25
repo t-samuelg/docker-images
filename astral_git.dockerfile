@@ -23,16 +23,16 @@ RUN git config --system init.defaultBranch main && \
     git config --system user.email "docker@example.com" && \
     git config --system safe.directory '*'
 
-# Create a non-root user for security
-RUN groupadd -r uvuser && useradd -r -g uvuser -d /home/uvuser -s /bin/bash uvuser && \
-    mkdir -p /home/uvuser && \
-    chown -R uvuser:uvuser /home/uvuser
+# # Create a non-root user for security
+# RUN groupadd -r uvuser && useradd -r -g uvuser -d /home/uvuser -s /bin/bash uvuser && \
+#     mkdir -p /home/uvuser && \
+#     chown -R uvuser:uvuser /home/uvuser
 
 # Set working directory
 WORKDIR /app
 
-# Change to non-root user
-USER uvuser
+# # Change to non-root user
+# USER uvuser
 
 # Set environment variables
 ENV PYTHONUNBUFFERED=1
