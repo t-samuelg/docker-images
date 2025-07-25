@@ -1,4 +1,4 @@
-FROM ghcr.io/astral-sh/uv:latest
+FROM ghcr.io/astral-sh/uv:0.8-python3.13-bookworm-slim
 
 # Add metadata labels
 LABEL org.opencontainers.image.title="Astral UV with Git"
