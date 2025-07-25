@@ -13,7 +13,6 @@ RUN apt-get update && \
         git \
         git-lfs \
         ca-certificates \
-    && git lfs install --system \
     && apt-get clean \
     && rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
 
